@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PPB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nm">Nama:</string>
+    <string name="btn">OK</string>
 </resources>
