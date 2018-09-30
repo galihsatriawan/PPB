@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "911453150874",
+    "firebase_url": "https://bantuin-3ba3a.firebaseio.com",
+    "project_id": "bantuin-3ba3a",
+    "storage_bucket": "bantuin-3ba3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911453150874:android:74e01938b167de29",
+        "android_client_info": {
+          "package_name": "in.bantu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911453150874-i5h6pjg9oa30arpe50t78sfc3e94v3ng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.bantu",
+            "certificate_hash": "c6ac9f06a7d6961d1f91ee736968c5fc137765dd"
+          }
+        },
+        {
+          "client_id": "911453150874-su7lk6cvndosdjbmc35t3si2b2624toc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPWZv8RCiDiv0WSYZRdgoyXl1hmH6q-MU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911453150874-su7lk6cvndosdjbmc35t3si2b2624toc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

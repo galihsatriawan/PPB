@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="in.bantu.Dashboard.Dashboard"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/gv1"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/margins_normal"
+            android:layout_marginLeft="@dimen/margins_normal"
+            android:layout_width="wrap_content"
+            android:id="@+id/judulGv1"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:text="Elektronik"/>
+
+        <GridView
+            android:id="@+id/gvLayanan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:columnWidth="65dp"
+            android:horizontalSpacing="8dp"
+            android:numColumns="4"
+
+            android:verticalSpacing="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/gv2"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/margins_normal"
+            android:layout_marginLeft="@dimen/margins_normal"
+            android:layout_width="wrap_content"
+            android:id="@+id/judulGv2"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:text="Bangunan"/>
+        <GridView
+            android:layout_margin="8dp"
+            android:id="@+id/gvLayanan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnWidth="65dp"
+            android:horizontalSpacing="8dp"
+            android:numColumns="4"
+            android:verticalSpacing="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/gv3"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="@dimen/margins_normal"
+            android:layout_marginLeft="@dimen/margins_normal"
+            android:layout_width="wrap_content"
+            android:id="@+id/judulGv3"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:text="Mesin"/>
+        <GridView
+            android:layout_margin="8dp"
+            android:id="@+id/gvLayanan3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnWidth="65dp"
+            android:horizontalSpacing="8dp"
+            android:numColumns="4"
+            android:verticalSpacing="15dp" />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

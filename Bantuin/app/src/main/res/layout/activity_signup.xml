@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container_signup"
+    android:background="@drawable/bg_slider_intro"
+    tools:context=".ui.Signup.Signup">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="0dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="13dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:tint="#ffda44"
+                    android:src="@drawable/ic_nama"/>
+                <EditText
+                    android:id="@+id/nama"
+                    android:layout_marginLeft="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nama"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:backgroundTint="#000"
+                    android:textColorHint="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_nama"
+                    android:tint="#ffda44"/>
+                <EditText
+                    android:id="@+id/country_id"
+                    android:layout_marginLeft="20px"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="+62"
+                    android:enabled="false"
+                    android:textColor="#000"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:inputType="phone"
+                    android:backgroundTint="#000"
+                    android:textColorHint="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/phone_signup"
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nomor (812xxxxxx)"
+                    android:textColor="#000"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:inputType="phone"
+                    android:backgroundTint="#000"
+                    android:textColorHint="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_nama"
+                    android:tint="#ffda44"/>
+                <EditText
+                    android:id="@+id/email_signup"
+                    android:layout_marginLeft="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Email (nama@email.com)"
+                    android:textColor="#000"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:inputType="text"
+                    android:backgroundTint="#000"
+                    android:textColorHint="@android:color/black" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/loginbc"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:id="@+id/btn_register"
+                    android:text="Register"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:layout_width="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/ubuntu_light"
+                    android:gravity="center"
+                    android:text="Dengan mendaftar saya setuju dengan "
+                    android:textColor="@android:color/black"
+                    android:textSize="6pt" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/btn_term"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ubuntu_light"
+                        android:gravity="left"
+                        android:text="Ketentuan-ketentuan "
+                        android:textColor="#ffda44"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/btn_term"
+                        android:fontFamily="@font/ubuntu_light"
+                        android:gravity="center"
+
+                        android:text="yang berlaku."
+                        android:textColor="#000" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <FrameLayout
+                android:id="@+id/fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp">
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/sudah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:fontFamily="@font/ubuntu_light"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Sudah punya akun? "
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+
+                android:layout_toRightOf="@+id/sudah"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/ubuntu_light"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="0dp"
+                android:paddingTop="15dp"
+                android:text="login"
+                android:textColor="#ffda44"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBarUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
