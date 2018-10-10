@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".sign_in"
+    android:background="@android:color/white"
     android:orientation="vertical">
 
     <ImageView
@@ -43,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Nomor Handphone"
+            android:inputType="phone"
             android:ems="13" />
 
 
